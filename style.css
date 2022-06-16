@@ -219,8 +219,23 @@ form
 {
     .sign-up-div
     {
-        padding: 30px 10px;
+        padding: 5%;
         /* align-items: center; */
         /* justify-content: center; */
+    }
+
+    .sign-up-div h1
+    {
+        font-size: 3rem;
+    }
+
+    form
+    {
+        width: 340px;
+    }
+
+    .sign-up-button
+    {
+        width: 340px;
     }
 }

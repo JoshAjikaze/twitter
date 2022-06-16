@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-decoration: none;
+}
+
+:root
+{
+    --twitter-color: rgb(29, 155, 240);
+    --black-2: rgba(119, 119, 119, 0.293);
+}
+
+.container, .container-2
+{
+    display: flex;
+    width: 100%;
+    height: 95vh;
+    overflow: hidden;
+}
+
+.img-div
+{
+    width: 53%;
+    height: 100%;
+    background-image: url(https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png);
+    background-repeat: none;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-div i
+{
+    font-size: 23rem;
+    color: #fff;
+}
+
+.sign-up-div
+{
+    width:47%;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sign-up-div > i
+{
+    font-size: 3rem;
+    color:var(--twitter-color)
+}
+.sign-up-div h1
+{
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.sign-up-div h3
+{
+    font-size: 2rem;
+}
+
+.sign-up-div h5
+{
+    font-size: 1.2rem;
+}
+
+.tiny-txt, .md-bold-txt
+{
+    font-size: .8rem;
+}
+
+
+.md-bold-txt
+{
+    font-weight: 700;
+}
+
+form
+{
+    width: 400px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.form-input
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid var(--black-2);
+    border-radius: 30px;
+    width: 100%;
+    height: 45px;
+    margin: 2px 0;
+}
+
+.form-input > div p
+{
+    width: 270px;
+}
+
+.form-input img, .form-input svg, .form-input i
+{
+    width: 30px;
+    border-radius: 50%;
+}
+
+.form-input i
+{
+    font-size: 1.5rem;
+    border:none;
+}
+
+.wt-apple
+{
+    padding: 15px 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.twitter-bg:hover
+{
+    background: rgb(38, 135, 200);
+}
+
+.input-2
+{
+    justify-content: center;
+}
+
+.input-2:hover
+{
+    background-color: #e4e4e4;
+}
+
+.sign-up-button
+{
+    width: 400px;
+    font-weight: bold;
+    color: var(--twitter-color);
+}
+
+.sign-up-button:hover{
+    background: rgba(29, 156, 240, 0.14);
+}
+
+.twitter-bg
+{
+    background-color: var(--twitter-color);
+    color: #fff;
+    font-weight: 700;
+}
+
+.tiny-txt span
+{
+    color: var(--twitter-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-2
+{
+    height: 4.5vh;
+    align-items: center;
+    justify-content: center;
+    font-size: .85rem
+}
+
+.container-2 a
+{
+    margin: 0 7px;
+}
